@@ -1,0 +1,61 @@
+<html>
+<head>
+    <style>
+    
+        
+           
+        
+    </style>
+</head>
+
+
+
+
+
+<body>
+<div class = "b1">
+ first  number : <input type="text" id = "s1"><br> <br>
+ second number : <input type ="text" id = "s2"> <br> <br>
+ <button onclick=add() >+</button>
+ <button onclick=sub()  >-</button> 
+ <button onclick=multiply() >*</button>
+ <button onclick=divide() >/</button> <br>
+ <button id="1" >1</button>
+</div>
+<script>
+    function add(){
+             var a = document.getElementById("s1").value;
+             var c = document.getElementById("s2").value;
+                  var  b = parseInt(a)+parseInt(c);
+                  console.log(b);
+    }
+ function sub(){
+             var a = document.getElementById("s1").value;
+             var c = document.getElementById("s2").value;
+                  var  b = parseInt(a)-parseInt(c);
+                  console.log(b);
+ }
+   
+ function multiply(){
+    var a = document.getElementById("s1").value;
+             var c = document.getElementById("s2").value;
+                  var  b = parseInt(a)*parseInt(c);
+                  console.log(b);
+ }
+ function divide(){
+    var a = document.getElementById("s1").value;
+             var c = document.getElementById("s2").value;
+                  var  b = parseInt(a)/parseInt(c);
+                  console.log(b);
+ }
+
+
+</script>
+</body>
+
+
+
+
+
+
+</html>
